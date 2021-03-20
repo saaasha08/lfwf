@@ -1,0 +1,161 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 100%;
+
+}
+.text{
+    margin-top: 70px;
+}
+.text h6{
+    color: #3763eb;
+}
+.text .line2{
+    position: relative;
+}
+.text .line2::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 45px;
+    height: 2px;
+    background: #3763eb;
+   margin-left: -21px;
+}
+.text h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+.text p{
+    color: #606060;
+   padding: 15px 0;
+}
+.blog-content a{
+   text-decoration: none;
+   color: black;
+  
+}
+.blog-content h3{
+    font-size: 23px;
+    font-weight: 500;
+    padding: 30px 25px 0 0;
+}
+.blog-content p{
+    color: #606060;
+   padding: 15px 0;
+}
+.pic-div{
+    color: #fff;
+    background-color: #3763eb;
+    width: 170px;
+    padding: 7px 0;
+    border-radius: 20px;
+    position: absolute;
+    right: 18px;
+    bottom: 16px;
+}
+.pic-div img{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    margin-left: 12px;
+}
+.pic-div span{
+   font-size: 14px;
+   margin-left: 5px;
+}
+.blog-thubnail{
+    position: relative;
+}
+/* footer */
+.footer{
+    color: rgb(255, 255, 255);
+}
+ul{
+    list-style: none;
+}
+a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+
+}
+.footer-top{
+    background-color: #081828;
+}
+.footer-widget img{
+    max-width: 50%;
+  
+}
+/*  Footer Social  */
+.footer-widget p{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.widget-social{}
+
+.widget-social ul li{
+     padding: 10px 0;
+    margin: 0 !important;
+    padding-right: 0;
+}
+.widget-social ul li span {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.widget-social ul li a {
+    font-size: 20px;
+    padding: 15px 5px;
+   
+}
+
+
+.footer-copyright p{
+    margin-bottom: 0;
+}
+
+.line1{
+    position: relative;
+    text-align: left;
+    margin-bottom: 50px;
+}
+.line1::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 1125px;
+    height: 1px;
+    background: #ffffff;
+  }
+.line3{
+    position: relative;
+    font-size: 24px;
+   
+  
+}
+.line3::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 2px;
+    height: 27px;
+    background: #3763eb;
+    margin-left: -12px;
+  }
+.nn ul li:nth-child(1) {
+     padding-top: 12px;
+    
+}
+
+.footer-widget ul li{
+     padding: 8px;
+    
+}
+.footer-widget ul li a{
+    font-size: 16px;
+    
+}
